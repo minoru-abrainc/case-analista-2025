@@ -8,6 +8,12 @@ Seu desafio é explorar o dataset e preparar uma leitura executiva do que ele re
 ---
 
 ### Schema da base
+
+O dataset para este desafio encontra-se gravado no arquivo [`case_estagio_dados_2025.csv`](https://github.com/minoru-abrainc/case-analista-2025/blob/main/case_estagio_dados_2025.csv).  
+No Python/Pandas, ele pode ser importado por meio de `read_csv()`.  
+No SQL, pode ser importado em um DBMS como o PostgreSQL, ou se preferir utilize compiladores online como o [runsql](https://runsql.com/r).  
+No PowerBI, o arquivo pode ser diretamente importado e tratado.  
+
 Colunas disponíveis:
 - `id` (int) – identificador do lançamento  
 - `data_lancamento` (date) – data do lançamento  
